@@ -1,6 +1,6 @@
-*{
+/**{
   outline: 2px solid yellow;
-}
+}*/
 
 html, body {
   margin: 0;
@@ -12,7 +12,7 @@ html, body {
 }
 
 #banner {
-  background: #F6F6F6 url('../img/banner_top.jpg') no-repeat;
+  background: #F6F6F9 url('../img/banner_top.jpg') no-repeat;
   height: 20vh;
   min-width:100%;
   background-position: center top ;
@@ -20,13 +20,52 @@ html, body {
   background-size: 90%;
 
 }
-
+.contenedor-gris{
+  background: #F6F6F9;
+}
 #text{
 color: #8C8585;
 font-size: 12px;
-padding-left:60px;
+padding-left:10px;
 }
-header {
+#boletin{
+  background: #E93B3B;
+  color: white;
+  margin-left: 10%;
+  font-size: 11px;
+  padding:5px 10px;
+  border-radius: 4px;
+}
+#icono-facebook{
+  color: blue;
+}
+#icono-twitter{
+  color: #5EDDF0;
+}
+#icono-google{
+  color: red ;
+}
+#icono-message{
+  color: #F9CB18;
+}
+#icono-wifi{
+  color: #F86F0A;
+}
+.fa{
+  margin-left: 2%;
+}
+.buscar{
+  width: 24%;
+  height: 10%;
+}
+#icono-buscar{
+  font-size:14px;
+  text-decoration: none;
+
+}
+
+
+/*header {
   background-color: #232f3e;
   height: 110px;
-}
+}*/
