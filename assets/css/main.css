@@ -1,0 +1,32 @@
+*{
+  outline: 2px solid yellow;
+}
+
+html, body {
+  margin: 0;
+  font-family: arial,sans-serif;
+  min-width: 100%;
+  line-height: 14px;
+  font-size: 10px;
+  background-position: center;
+}
+
+#banner {
+  background: #F6F6F6 url('../img/banner_top.jpg') no-repeat;
+  height: 20vh;
+  min-width:100%;
+  background-position: center top ;
+  display: block;
+  background-size: 90%;
+
+}
+
+#text{
+color: #8C8585;
+font-size: 12px;
+padding-left:60px;
+}
+header {
+  background-color: #232f3e;
+  height: 110px;
+}
