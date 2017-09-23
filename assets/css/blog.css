@@ -1,14 +1,15 @@
 /* Inserta tu código de la página blog acá */
-*{
-
-/*	outline: 1px solid red;
-*//*	margin: 2px;
-*/}
 .cajas {
-	border: 1px solid black;
+	border: 1px solid #DBD6D6;
 	margin: 15px;
 	padding: 20px;
 }
 .color-plomo{
 	background-color: #A69D9D;
+}
+h2{
+	padding-left: 15px;
+}
+h6{
+    padding-left: 15px;
 }
