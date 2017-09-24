@@ -1,8 +1,15 @@
 /* Inserta tu código de la página blog acá */
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.cajas:hover{
+	color: #D5D1D1;
+}
 .cajas {
 	border: 1px solid #DBD6D6;
 	margin: 15px;
 	padding: 20px;
+
 }
 .color-plomo{
 	background-color: #A69D9D;
@@ -12,4 +19,9 @@ h2{
 }
 h6{
     padding-left: 15px;
+    color: gray;
+}
+span{
+	font-size: 20px;
+
 }
