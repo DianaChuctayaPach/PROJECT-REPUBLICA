@@ -1,11 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>La Répública - Contacto</title>
-  <!-- Inserta tus enlaces aquí -->
+    <meta charset="UTF-8">
+    <title>La Répública - Contacto</title>
+    <link rel="stylesheet" href="assets/css/contacto.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Inserta tus enlaces aquí -->
 </head>
+
 <body>
-<!-- Inserta tu código aquí -->
+    <!-- Inserta tu código aquí -->
+    <div class="container" id="todo">
+        <h1 class="titulo">Contáctese con Nosotros</h1>
+        <p class="contenido">Llena este formulario si necesita enviarnos alguna información acerca del contenido del sitio web,su funcionalidad, o si tiene alguna propuesta de información o mejora del sitio.Así mismo,puede hacer llegar a los redactores su opinión acerca de
+            los contenidos de una determinada sección el cual podrá elegir como destinatario.</p>
+        <form action="registrar.js" method="get" class="form-register" onsubmit="return validar()" enctype="">
+            <div class="contenedor-inputs">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombres Completos" class="dato">
+                <input type="text" id="correo" name="correo" placeholder="Correo Electrónico" class="dato">
+                <input type="text" id="telefono" name="telefóno" placeholder="Teléfono" class="dato">
+                <p class="form-link">(Opcional)</p>
+
+                <h2 class="subtitle">Elija un Destinatario</h2>
+                <div class="form-check">
+                    <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" >
+              Sugerencia para el sitio web
+              <p>(Ej:funcionamiento y mejoras para el sitio)</p>
+            </label>
+
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              Dirección periodística 
+              <p>(Ej:Sugerencia para la nota de prensa)</p>
+            </label>
+
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                Dirección comercial
+                <p  >(Ej:Publicidad en diarios o sitios web)</p>
+              </label>
+
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  Cartas al director
+                  <p > (Ej:denuncias,comentarios,impresiones)</p>
+                </label>
+
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    Promociones y productos del diario 
+                    <p  >(Ej:Promociones,tablet,etc)</p>
+                  </label>
+
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                      Archivo periodístico 
+                      <p >(Ej:Ediciones impresas/fotos)</p>
+                    </label>
+                </div>
+                <textarea name="mensaje" id="" placeholder="Mensaje"></textarea>
+                <input type="submit" value="ENVIAR" id="" class="btn-enviar">
+            </div>
+        </form>
+    </div>
+    <script src="assets/js/app.js"></script>
 </body>
+
 </html>
