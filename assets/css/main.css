@@ -15,10 +15,7 @@
     background-color: #14ffff;
     color: #c4c4c4;
 }
-.iconLuisa .google1{
-    /* background-color: red;
-    color: red; */
-}
+
 .iconLuisa .facebook{
     background-color: blue;
 }
@@ -137,7 +134,7 @@
     color: black;
 } 
 /*=================fin css de luisa================*/
-=======
+
 html, body {
   margin: 0;
   font-family: arial,sans-serif;
@@ -292,6 +289,8 @@ margin-top: 30px;
 #borde_aweita{
     border-style:solid;
    border-color:  5px #CBC6C6 ;
+   margin-top: -100%;
+   margin-left: 65%;
 }
 #img-aweita{
 margin-left: 30%;
@@ -304,11 +303,20 @@ margin-left: 30%;
   background:#c116d8;
 
 }
+/*----respon*/
+#borde_aweita-respon{
+    border-style:solid;
+   border-color:  5px #CBC6C6 ;
+  
+}
+
 /*DESTACADOS*/
 
 #borde_destac{
     border-style:solid;
    border-color:  5px #CBC6C6 ;
+  margin-top: -55%;
+   margin-left: 65%;
 }
 #btn-destac{
   background: #6f8798;
@@ -319,6 +327,34 @@ margin-left: 30%;
   background: #6f8798;
 
 }
+/*responsive*/
+#borde_destac{
+    border-style:solid;
+   border-color:  5px #CBC6C6;
+}
+
+/*-----------------*/
+/*#box-emma{
+  margin-top: -45%;
+}
+#box-emma2{
+  position:relative;
+  margin-top: -25%;
+}
+#box-emma3{
+  position:relative;
+  margin-top: -6%;
+}
+#box-emma4{
+  position:relative;
+  margin-top: 2%;
+}
+#box-emma5{
+  position:relative;
+  margin-top: -21%;
+}*/
+
+/*-----------*/
 .fechabertha{
   color: gray;
   font-size: 0.9vw;
@@ -330,6 +366,7 @@ margin-left: 30%;
 #Emma{
     padding-bottom: 15px;
 }
+
 #punto{
     padding: 5px;
     font-size: 4px;
@@ -364,5 +401,72 @@ margin-left: 30%;
     font-size: 18px;
     padding: 4px;
 
+}
+
+/*parte de ana*/
+
+.titulo-ana{
+    color: red;
+    height: 43px;
+    font-size: 20px;
+}
+.imagen-ana{
+    padding: 9px;
+    background-image: url("../img/img_especiales.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 107%;
+    color: white;
+    font-size: 1.8vw;
+    margin-left: -12px;
+}
+.texto1{
+    margin-top: 40%;
+    font-size: 1.3vw;
+}
+.subtitulo-ana{
+    height: 2vw;
+    text-align: center;
+    font-size: 1vw;
+}
+.columna3{
+    height: 20vw;
+}
+.columna-banner{
+    background-image: url("../img/banner-aside-home.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 660px;
+    width: 120%;
+    margin-top: 15px;
+}
+.columna1,.columna2, .columna4,.columna5{
+    margin: 10px;
+    border:1px solid #C0C0C0;
+}
+@media (min-width: 100px) and (max-width: 765px) {
+    .columna-banner{
+        visibility: hidden;
+    }   
+    .texto1{
+    font-size: 4vw;
+    padding: 10px;
+    }  
+    .subtitulo-ana{
+    font-size: 3vw;
+    height: 4vh;
+    }
+    .columna2{
+        margin-top: 20px;
+    }  
+    .columna4{
+        margin-top: -100px;
+    }
+    .columna5{
+        margin-top: 20px;
+    }
+    .imagen-ana{
+    width: 103%;
+    }
 }
 
