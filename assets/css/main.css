@@ -100,6 +100,17 @@ padding-left:10px;
 .img-author{
   margin-top: -10px;
 }
+.text-editorial{
+  background: black;
+  color: #fff;
+}
+#text-vertical .text-editorial{
+  width: 40%;
+  padding: 5px 10px;
+  font-size: 11px;
+  text-align: center;
+  
+}
 #nav-republica{
 color: #fff;
 background:#D40505;
@@ -141,7 +152,34 @@ margin-top: 30px;
 
 }
 
-/*header {
-  background-color: #232f3e;
-  height: 110px;
-}*/
+/*__________AWEITA_________*/
+#borde_aweita{
+    border-style:solid;
+   border-color:  5px #CBC6C6 ;
+}
+#img-aweita{
+margin-left: 30%;
+}
+.text-aweita{
+  text-align: center;
+}
+.line-aweita{
+ padding: 3px 10px;
+  background:#c116d8;
+
+}
+/*DESTACADOS*/
+
+#borde_destac{
+    border-style:solid;
+   border-color:  5px #CBC6C6 ;
+}
+#btn-destac{
+  background: #6f8798;
+  color: #fff;
+}
+.line-destac{
+ padding: 3px 10px;
+  background: #6f8798;
+
+}
