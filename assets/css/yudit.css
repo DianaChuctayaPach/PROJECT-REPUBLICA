@@ -1,11 +1,11 @@
-html, body {
+/* html, body {
   margin: 0;
   font-family: arial,sans-serif;
   min-width: 100%;
   line-height: 14px;
   font-size: 10px;
   background-position: center;
-}
+} */
 
 #banner {
   background: #F6F6F9 url('../img/banner_top.jpg') no-repeat;
@@ -96,17 +96,6 @@ padding-left:10px;
 .img-author{
   margin-top: -10px;
 }
-.text-editorial{
-  background: black;
-  color: #fff;
-}
-#text-vertical .text-editorial{
-  width: 40%;
-  padding: 5px 10px;
-  font-size: 11px;
-  text-align: center;
-  
-}
 #nav-republica{
 color: #fff;
 background:#D40505;
@@ -147,82 +136,3 @@ margin-top: 30px;
   background-size: 90%;
 
 }
-
-/*__________AWEITA_________*/
-#borde_aweita{
-    border-style:solid;
-   border-color:  5px #CBC6C6 ;
-}
-#img-aweita{
-margin-left: 30%;
-}
-.text-aweita{
-  text-align: center;
-}
-.line-aweita{
- padding: 3px 10px;
-  background:#c116d8;
-
-}
-/*DESTACADOS*/
-
-#borde_destac{
-    border-style:solid;
-   border-color:  5px #CBC6C6 ;
-}
-#btn-destac{
-  background: #6f8798;
-  color: #fff;
-}
-.line-destac{
- padding: 3px 10px;
-  background: #6f8798;
-
-}
-.fechabertha{
-  color: gray;
-  font-size: 0.9vw;
-}
-.titlebertha{
-  font-weight: bold;
-  font-size: 1.6vw;
-}
-#Emma{
-    padding-bottom: 15px;
-}
-#punto{
-    padding: 5px;
-    font-size: 4px;
-    bottom:10px;
-}
-#iconoberthafb{
-    font-size: 18px;
-    padding: 4px;
-    color: blue;
-    border-bottom: 4px solid blue;
-}
-#iconoberthatw{
-    font-size: 18px;
-    padding: 4px;
-    color: skyblue;
-    border-bottom: 4px solid skyblue;
-}
-#iconoberthagl{
-    font-size:18px;
-    padding: 4px;
-    color: red;
-    border-bottom: 4px solid red;
-}
-#comentario{
-    font-size: 18px;
-    padding: 4px;
-    color: gray;
-    /* border-bottom: 4px solid red; */
-}
-#youtube{
-    color: red;
-    font-size: 18px;
-    padding: 4px;
-
-}
-
