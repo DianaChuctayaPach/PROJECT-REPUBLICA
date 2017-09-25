@@ -1,8 +1,16 @@
-
-*{
-    outline: 1px solid red;
+html,body{
+    padding: 0;
+    margin: 0;
 }
-
+#separador::after{
+    content: "|";
+}
+hr{
+    border-width:3px;
+}
+.derechos{
+  font-size: 1.5vw;
+}
 footer{
     background:#CAC8C8;
     color:#131a22;
@@ -51,7 +59,4 @@ footer .middle {
 
 footer .middle li {
   position: relative;
-}
-.Footer2{
-    /* margin-left:20px; */
 }

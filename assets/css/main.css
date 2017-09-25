@@ -1,12 +1,13 @@
-html,body{
-    padding: 0;
-    margin: 0;
 
+
+*{
+    outline: 1px solid red;
 }
-#separador::after{
-    content: "|";
+.fechabertha{
+  color: gray;
+  font-size: 0.9vw;
 }
-hr{
-    /* background-color: #000000; */
-    border-width:3px;
+.titlebertha{
+  font-weight: bold;
+  font-size: 1.6vw;
 }
