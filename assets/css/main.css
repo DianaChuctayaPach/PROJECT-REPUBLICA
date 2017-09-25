@@ -1,6 +1,6 @@
 
 *{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .fechabertha{
@@ -10,4 +10,42 @@
 .titlebertha{
   font-weight: bold;
   font-size: 1.6vw;
+}
+#Emma{
+    padding-bottom: 15px;
+}
+#punto{
+    padding: 5px;
+    font-size: 4px;
+    bottom:10px;
+}
+#iconoberthafb{
+    font-size: 18px;
+    padding: 4px;
+    color: blue;
+    border-bottom: 4px solid blue;
+}
+#iconoberthatw{
+    font-size: 18px;
+    padding: 4px;
+    color: skyblue;
+    border-bottom: 4px solid skyblue;
+}
+#iconoberthagl{
+    font-size:18px;
+    padding: 4px;
+    color: red;
+    border-bottom: 4px solid red;
+}
+#comentario{
+    font-size: 18px;
+    padding: 4px;
+    color: gray;
+    /* border-bottom: 4px solid red; */
+}
+#youtube{
+    color: red;
+    font-size: 18px;
+    padding: 4px;
+
 }
