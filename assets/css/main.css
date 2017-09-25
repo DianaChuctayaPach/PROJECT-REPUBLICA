@@ -1,4 +1,6 @@
-
+*{
+    /* outline: 1px solid green; */
+}
 .letraLu {
     align-content: center;
     font-size: 60px;
